@@ -1,0 +1,1 @@
+<table class="table"><tr><th>Crime Date</th><th>Agency</th><th>Description</th><th>Type</th><th>Group</th></tr><tr><td>3-11-17</td><td>TROOP 7 STATE POLICE</td><td>Domestic/Non-Family/Verbal</td><td>Domestic</td><td>OTHER</td></tr></table>

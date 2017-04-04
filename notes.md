@@ -9,6 +9,7 @@ We use the gis server on delawareonline to search.  Search for all that contain 
 
     curl "http://gis.delawareonline.com/arcgisREST/services/crimeSerious/MapServer/0/query?text=0&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&where=&returnGeometry=false&outSR=&outFields=&f=pjson" -o 0.json
 
+
     curl "http://gis.delawareonline.com/arcgisREST/services/crimeSerious/MapServer/0/query?text=1&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&where=&returnGeometry=false&outSR=&outFields=&f=pjson" -o 1.json
 
 
@@ -20,6 +21,10 @@ https://stedolan.github.io/jq/
 https://jqplay.org/s/CUxKPEphYp
 
     jq '(.features[].attributes.CRIMEGRID)'
+
+    cat *.json | jq --raw-output '(.features[].attributes)|.CRIMEGRID' | sort | uniq
+
+Get all unique grids
 
 ## Get results table
 
