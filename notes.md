@@ -22,12 +22,24 @@ https://jqplay.org/s/CUxKPEphYp
 
     jq '(.features[].attributes.CRIMEGRID)'
 
+Get all unique grids
+
     cat *.json | jq --raw-output '(.features[].attributes)|.CRIMEGRID' | sort | uniq
 
-Get all unique grids
+Get all unique grids curls
+
+    cat *.json | jq --raw-output '(.features[].attributes.CRIMEGRID) | "curl \"http://php.delawareonline.com/news/evergreen/crime/popupSummary.php?modgrid=" + . + "\" -o " + . + ".txt"' | sort | uniq
 
 ## Get results table
 
 HTML results for modgrid.  modgrid = CRIMEGRID
 
 http://php.delawareonline.com/news/evergreen/crime/popupSummary.php?modgrid=090346
+
+## Get geometry
+
+http://gis.delawareonline.com/arcgisREST/services/crimeSerious/MapServer/0/query?returnGeometry=true&f=pjson&text=050326
+
+Get all unique grids geometry curls
+
+    cat *.json | jq --raw-output '(.features[].attributes.CRIMEGRID) | "curl \"http://gis.delawareonline.com/arcgisREST/services/crimeSerious/MapServer/0/query?returnGeometry=true&f=pjson&text=" + . + "\" -o " + . + ".json"' | sort | uniq
