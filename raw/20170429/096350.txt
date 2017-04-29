@@ -1,0 +1,1 @@
+<table class="table"><tr><th>Crime Date</th><th>Agency</th><th>Description</th><th>Type</th><th>Group</th></tr><tr><td>4-10-17</td><td>NEWPORT PD</td><td>Damage/Business Property</td><td>Criminal mischief</td><td>OTHER</td></tr><tr><td>4-10-17</td><td>NEWPORT PD</td><td>Trespassing/Free Text</td><td>Trespassing</td><td>OTHER</td></tr></table>

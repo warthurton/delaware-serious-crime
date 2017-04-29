@@ -1,0 +1,1 @@
+<table class="table"><tr><th>Crime Date</th><th>Agency</th><th>Description</th><th>Type</th><th>Group</th></tr><tr><td>3-20-17</td><td>LAUREL PD</td><td>Forgery/Free Text</td><td>Forgery</td><td>OTHER</td></tr><tr><td>3-20-17</td><td>LAUREL PD</td><td>Traffic Offense/Free Text</td><td>Traffic</td><td>OTHER</td></tr></table>

@@ -1,0 +1,1 @@
+<table class="table"><tr><th>Crime Date</th><th>Agency</th><th>Description</th><th>Type</th><th>Group</th></tr><tr><td>4-17-17</td><td>TROOP 9 STATE POLICE</td><td>Obstructing a Court Order</td><td>Obstruction of justice -- courts</td><td>OTHER</td></tr></table>

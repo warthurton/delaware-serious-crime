@@ -1,0 +1,1 @@
+<table class="table"><tr><th>Crime Date</th><th>Agency</th><th>Description</th><th>Type</th><th>Group</th></tr><tr><td>4-04-17</td><td>ALCOHOL & TOBACCO ENFORCEMENT</td><td>Traffic Offense/Free Text</td><td>Traffic</td><td>OTHER</td></tr></table>
